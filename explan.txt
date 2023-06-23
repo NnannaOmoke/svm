@@ -4,3 +4,5 @@ However, SVCs may not always find the perfect hyperplane that seperates the clas
 The Support Vector Machine will increase the dimensionality of the dataset, and then try to find the hyperplane in the n+1th (where n is the number of features) dimension
 The first hyperparameter to take into consideration is C. In sklearn, the C present is inversely proportional to the C used in determining the number of miscalculations allowed in the Soft Margin
 The gamma hyperparameter determines the scale that each point plays in affecting the hyperplane margin. Higher causes overfitting.The gamma parameter does not really affect the linear kernel
+Linear SVR will perform fitting faster than the vanilla SVR. However, it only uses a linear kernel
+Epsilon is the error we're willing to allow per training data instance
